@@ -8,6 +8,7 @@
 /dist/fullcalendar-demo
 /dist/fullcalendar/*
 !/dist/fullcalendar/package.json
+!/dist/fullcalendar/fullcalendar-angular-5.5.0.tgz
 /tmp
 /out-tsc
 

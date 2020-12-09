@@ -16,7 +16,9 @@
     "clean": "./scripts/clean.sh",
     "ci": "./scripts/ci.sh",
     "sync-version-fields": "./scripts/sync-version-fields.js",
-    "version": "npm run sync-version-fields && git add projects/fullcalendar/package.json"
+    "version": "npm run sync-version-fields && git add projects/fullcalendar/package.json",
+    "npm_pack": "cd dist/fullcalendar && npm pack",
+    "package": "ng build fullcalendar --prod && npm run npm_pack"
   },
   "dependencies": {
     "@angular/animations": "~11.0.2",
