@@ -6,7 +6,6 @@
 
 # compiled output
 /dist/fullcalendar-demo
-/dist/fullcalendar/*
 !/dist/fullcalendar/package.json
 /tmp
 /out-tsc
